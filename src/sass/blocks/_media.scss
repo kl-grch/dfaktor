@@ -1,0 +1,43 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 1060px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 852px;
+    }
+    .menu {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 628px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+       width: 100%;
+       padding: 0 10px;
+    }
+    .body {
+        &__wrapper {
+            margin-top: 10px;
+            flex-direction: column;
+        }
+    }
+    .menu {
+        width: 100%;
+    }
+    .content {
+        width: 100%;
+        margin: 0;
+    }
+    .promo {
+        display: none;
+    }
+}
